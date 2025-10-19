@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data (exclude large files from image, but keep essential ones)
+CMaps/
+
+# Keep requirements.txt (critical!)
+!requirements.txt
+
+# Keep essential model files
+!models/lstm_best_model.pth
+!models/training_results.pkl
+!processed_data/X_test.npy
+!processed_data/y_test.npy
+!processed_data/metadata.pkl
+!processed_data/scaler.pkl
+!shap_results/explainability_results.pkl
