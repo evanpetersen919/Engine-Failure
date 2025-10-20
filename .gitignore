@@ -28,15 +28,15 @@ wheels/
 */.ipynb_checkpoints/*
 
 # Data files (large datasets)
-processed_data/
+# processed_data/  # Commented out - needed for deployment
 *.h5
 *.hdf5
 
 # Models
-models/
-*.pkl
+# models/  # Commented out - needed for deployment
+# *.pkl  # Commented out - needed for deployment
 *.joblib
-*.h5
+# *.h5  # Already listed above
 *.keras
 
 # macOS
