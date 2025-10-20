@@ -20,7 +20,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY streamlit_app.py .
 COPY model_loader.py .
 COPY api.py .
-COPY run_app.py .
 
 # Copy model and data directories
 COPY models/ ./models/
